@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css2?family=popins:wfht@100;200;300;400;500&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    border: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    /* margin-bottom: 100px; */
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    color: #ea1f33;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .logo span {
+    color: #000;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    transition: 0.2s;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    color: #ea1f33;
+}
+
+header button {
+    background-color: #ea1f33;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 25px;
+}
+header .auth .account img{
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+header .auth .account span{
+    margin: 0px 10px;
+}
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 100px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ea1f33;
+}
+
+.menu_toggle {
+    display: none;
+}
+
+@media (max-width:682px) {
+    header {
+        padding: 0 10px;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .menu_toggle {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .menu_toggle span {
+        width: 35px;
+        background-color: #ea1f33;
+        height: 5px;
+        border-radius: 6px;
+        transition: 0.5s;
+    }
+
+    .menu_toggle span.activ {
+        width: 0px;
+    }
+
+    .menu_toggle::before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 5px;
+        background-color: #ea1f33;
+        transform: translateY(10px);
+        border-radius: 6px;
+    }
+
+    .menu_toggle.active::before {
+        width: 28px;
+        transform: rotate(45deg);
+    }
+
+    .menu_toggle::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 5px;
+        background-color: #ea1f33;
+        transform: translateY(-10px);
+        border-radius: 6px;
+        transition: 0.5s;
+
+    }
+
+    .menu_toggle.active::after {
+        width: 28px;
+        transform: rotate(-45deg);
+
+    }
+
+    header .menu.responsive {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index: 2;
+        background-color: #fff;
+    }
+}

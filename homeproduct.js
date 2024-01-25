@@ -1,0 +1,70 @@
+//  const state={
+//     HomeProduct:[
+//         {
+//             id:1,
+//             Title:"Larbaa Beni Hassen, Tanger-Tétouan, Morocco.",
+//             nights:'Jan 6 - 21',
+//             Price:'723',
+//             Img:['images/1.jpg','images/2.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Amazing views'
+//         },
+//         {
+//             id:2,
+//             Title:"Chefchaouen, Tangier-Tétouan-Al Hoceima, Morocco.",
+//             nights:'Jan 22 - 27',
+//             Price:'723',
+//             Img:['images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Creative spaces'
+//         },
+//         {
+//             id:3,
+//             Title:"Rabat, Morocco.",
+//             nights:'Jan 29 - Feb 3',
+//             Price:'723',
+//             Img:['images/1.jpg','images/2.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'national parks'
+//         },
+//         {
+//             id:4,
+//             Title:"Casablanca, Morocco.",
+//             nights:'Apr 29 - May 4',
+//             Price:'723',
+//             Img:['images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Creative spaces'
+//         },
+//         {
+//             id:5,
+//             Title:"Marrakech, Morocco.",
+//             nights:'Mar 1 - 7',
+//             Price:'723',
+//             Img:['images/1.jpg','images/2.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Riad'
+//         },
+//         {
+//             id:6,
+//             Title:"Tinghir, Morocco.",
+//             nights:'Mar 10 - 21',
+//             Price:'723',
+//             Img:['images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Tropical'
+//         },
+//         {
+//             id:7,
+//             Title:"Casablanca, Morocco.",
+//             nights:'Feb 12 - 17',
+//             Price:'723',
+//             Img:['images/1.jpg','images/2.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Farms'
+//         },
+//         {
+//             id:8,
+//             Title:"Chefchaouen, Tangier-Tétouan-Al Hoceima, Morocco.",
+//             nights:'Feb 25 - Mar 2',
+//             Price:'723',
+//             Img:['images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg','images/2.jpg','images/1.jpg'],
+//             type:'Riad'
+//         }
+//     ],
+//     index:0
+//  }
+// export default state

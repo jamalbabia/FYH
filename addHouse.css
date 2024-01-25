@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+
+.house_container{
+    padding:140px 50px 40px;
+    width: 100%;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+
+}
+.house_container form{
+    padding: 50px 50px;
+    max-width: 65%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+.house_container form .upimg .file-style {
+    font-family: 'Trebuchet MS';
+    width: 400px;
+    display: block;
+    background-color: #f5f4f4;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px dashed #cdc8c8;
+    /* z-index: 100; */
+   }
+   .house_container form .upimg .file-style:hover {
+    background-color: rgb(228, 213, 213);
+   }
+.house_container form .upimg input{
+    border: none;
+    opacity: 0;
+    width: 100%;
+    padding-top: 55px;
+    margin-top: -65px;
+
+}
+.house_container form .house_img{
+    width: 500px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.house_container form .house_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 3px;
+    /* border: 1px solid #010f1c; */
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+
+}
+.house_container .cardbox{
+    display: flex;
+    justify-content: space-between;
+}
+.house_container .cardbox .box input{
+    margin: 10px 0px;
+    padding: 10px 30px;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #010f1c;
+    width: 170px;
+}
+.house_container .cardbox1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house_container .cardbox1 .box input{
+    margin: 10px 0px;
+    padding: 10px 30px;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #010f1c;
+    width: 100px;
+}
+
+.house_container form .box{
+    margin: 10px 35px 0px 35px;
+}
+.house_container form .box label {
+    font-size: 15px;
+}
+.house_container form .box input {
+    margin: 10px 0px;
+    padding: 10px 30px;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #010f1c;
+    width: 435px;
+}
+
+.house_container form button {
+    background: #ea1f33;
+    width: 100%;
+    padding: 10px;
+    margin: 25px 0px;
+    color: #f6f6f6;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+} 
